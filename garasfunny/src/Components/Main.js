@@ -10,7 +10,6 @@ import {
 } from "react95";
 import {useState} from "react";
 import logoIMG from '../logo.svg';
-import WordArt from "react-wordart";
 
 export function Main() {
 
@@ -58,7 +57,7 @@ export function Main() {
                 <WindowHeader active={false} className='window-title'><span>Garasfunny.exe</span>
                 </WindowHeader>
                 <WindowContent>
-                    <WordArt text='Garasfunny' theme={`rainbow`} fontSize={50}/>
+                    <img src={"../garasfunny.png"} alt={"Funny pic"} style={{width:"100%"}}/>
                 </WindowContent>
             </Window>
             <Window className='window' style={{
